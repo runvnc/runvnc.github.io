@@ -1,0 +1,17 @@
+{
+  "name": "runvnc.github.io",
+  "version": "1.0.0",
+  "description": "Not exactly a portfolio site, but some interesting videos of programs I have made. Could eventually become a portfolio site with explanations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mustache": "^4.2.0",
+    "mustache-express": "^1.3.2"
+  }
+}
