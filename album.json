@@ -3,6 +3,26 @@
     {
       "videoUrl": "vr.mp4",
       "description": "The VR mode for Gifeconomy galleries." 
+    },
+    {
+        "videoUrl": "arb.mp4",
+        "description": "Cryptocurrency arbitrage status/inspector."
+    },
+    {
+        "videoUrl": "vs.mp4",
+        "description": "Vintage Simulator (https://vintagesimulator.com), running hundreds of ZX Spectrum emulators at once on one screen."
+    },
+    {
+        "videoUrl": "jforces.mp4",
+        "description": "A 3D browser front end for the JFORCES software."
+    },
+    {
+        "videoUrl": "mc.mp4",
+        "description": "Browser program from several years ago visualizing Minecraft."
+    },
+    {
+        "videoUrl": "d1.mp4",
+        "description": "Simple demo of GIS-type functionality in the browser."
     }
   ]   
 }
