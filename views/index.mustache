@@ -13,13 +13,12 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-  <link href="/static/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png" sizes="180x180">
   <link rel="icon" href="/static/images/favicon-32x32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/static/images/favicon-16x16.png" sizes="16x16" type="image/png">
-  <link rel="manifest" href="/static/images/favicons/manifest.json">
   <link rel="mask-icon" href="/static/images/safari-pinned-tab.svg" color="#712cf9">
   <link rel="icon" href="/static/images/favicon.ico">
 
@@ -164,7 +163,8 @@
           <div class="col-sm-4 offset-md-1 py-4">
             <h4>Contact</h4>
             <ul class="list-unstyled">
-              <li><a href="https://github.com/runvnc" class="text-white">Github</a></li>
+              <li><a href="https://github.com/runvnc" class="text-white">Github (runvnc)</a></li>
+              <li><a href="https://discord.com/users/runvnc#300408772134699009" class="text-white">Discord (runvnc)</a></li>
               <li><a href="mailto:runvnc@gmail.com" class="text-white">Email me</a></li>
             </ul>
           </div>
@@ -175,7 +175,7 @@
       <div class="container">
         <a href="#" class="navbar-brand d-flex align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-          <strong>Album</strong>
+          <strong>Jason Livesay Portfolio and Contact</strong>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -189,11 +189,10 @@
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">Album example</h1>
-          <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+          <h1 class="fw-light">Portfolio</h1>
+          <p class="lead text-body-secondary">Here are some projects. Most show with videos of the front-end since that is more engaging, but most also include the back end.</p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            <a href="mailto:runvnc@gmail.com" class="btn btn-primary my-2">Email me</a>
           </p>
         </div>
       </div>
@@ -208,8 +207,8 @@
           <div class="col">
             <div class="card shadow-sm">
               
-              <video width="100%" height="225" muted>
-                <source src="{{videoUrl}}" type="video/mp4">
+              <video width="100%" height="225" controls autoplay loop playsinline muted>
+                <source src="/static/videos/{{videoUrl}}" type="video/mp4">
               </video>
 
               <div class="card-body">
@@ -235,8 +234,12 @@
       <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.3/getting-started/introduction/">getting started guide</a>.</p>
     </div>
   </footer>
-
-  <script src="/static/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="/static/js/popper.min.js" crossorigin="anonymous"></script>
+  <script src="/static/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 </body>
 
